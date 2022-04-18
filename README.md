@@ -1,2 +1,2 @@
-# Rick-And-Morty-Acceptance-Test
+# rick-and-morty-acceptance-test
 Rick And Morthy Acceptance Test
