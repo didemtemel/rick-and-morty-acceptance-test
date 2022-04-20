@@ -33,7 +33,6 @@ public class BaseService {
 
         return new ReadableResponse(response);
     }
-
     protected ReadableResponse getRequest(List<QueryParam> queryParams, String endPoint) {
         RequestSpecification requestSpecification = given()
                 .spec(spec)

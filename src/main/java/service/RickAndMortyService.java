@@ -1,9 +1,7 @@
 package service;
 
-
 import util.QueryParam;
 import util.ReadableResponse;
-
 import java.util.List;
 
 public class RickAndMortyService extends BaseService{
@@ -15,6 +13,5 @@ public class RickAndMortyService extends BaseService{
     public ReadableResponse getMultipleCharacters(List<Integer> ids) { return getRequest("/character/" + ids); }
 
     public ReadableResponse filterCharacters(List<QueryParam> queryParams) { return getRequest("/character/" + queryParams); }
-
 
 }
