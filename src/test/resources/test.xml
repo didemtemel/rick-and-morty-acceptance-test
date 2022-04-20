@@ -4,6 +4,7 @@
     <test name="rick-and-morty-all-test-cases" preserve-order="false" parallel="classes" thread-count="20">
 
         <classes>
+            <class name="GetASingleCharacterTest"/>
 
         </classes>
 
