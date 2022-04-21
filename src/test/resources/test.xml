@@ -5,6 +5,7 @@
 
         <classes>
             <class name="GetASingleCharacterTest"/>
+            <class name="GetMultipleCharactersTest"/>
 
         </classes>
 
