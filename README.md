@@ -2,6 +2,9 @@
 Rick And Morty Acceptance Test
 
 
+Medium post link: https://medium.com/@didemtemel/api-testing-with-rest-assured-bbfad02135a6
+
+
 Test cases:
 
 GetASingleCharacterTest
