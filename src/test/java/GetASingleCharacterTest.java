@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class GetASingleCharacterTest extends BaseTest{
+public class GetASingleCharacterTest extends BaseTest {
 
     @Test
     public void it_should_get_character_by_id() {

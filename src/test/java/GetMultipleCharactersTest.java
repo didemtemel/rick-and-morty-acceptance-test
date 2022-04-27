@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class GetMultipleCharactersTest extends BaseTest{
+public class GetMultipleCharactersTest extends BaseTest {
 
     @Test
     public void it_should_get_multiple_characters_by_ids() {
@@ -19,7 +19,7 @@ public class GetMultipleCharactersTest extends BaseTest{
         List<Integer> ids = new ArrayList<Integer>();
         ids.add(1);
         ids.add(2);
-        
+
         //When: send request
         var readableResponse = rickAndMortyService.getMultipleCharacters(ids);
         var characterResponse = readableResponse.getResponse().as(CharacterResponse[].class);
