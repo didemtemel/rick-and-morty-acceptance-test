@@ -20,7 +20,7 @@ public class RickAndMortyService extends BaseService {
     }
 
     public ReadableResponse filterCharacters(List<QueryParam> queryParams) {
-        return getRequest("/character/" + queryParams);
+        return getRequest(queryParams, "/character/");
     }
 
 }
